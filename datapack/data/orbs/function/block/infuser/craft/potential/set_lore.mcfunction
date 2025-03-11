@@ -1,0 +1,2 @@
+$data modify storage orbs:block/infuser/craft result.components."minecraft:lore" prepend value '{"color":"green","italic":false,"text":"Reset will cost $(levels) levels."}'
+$data modify storage orbs:block/infuser/craft result.components."minecraft:lore" prepend value '{"color":"white","italic":false,"text":"Item has been upgraded $(uses) times."}'

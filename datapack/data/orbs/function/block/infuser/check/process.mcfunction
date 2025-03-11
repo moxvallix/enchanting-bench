@@ -4,3 +4,5 @@ data remove storage orbs:block/infuser/check process.components."minecraft:custo
 
 execute store result score $size orbs.block.infuser run data get storage orbs:block/infuser/check process.components."minecraft:custom_data"
 execute if score $size orbs.block.infuser matches ..0 run data remove storage orbs:block/infuser/check process.components."minecraft:custom_data"
+
+playsound block.enchantment_table.use block @a ~ ~ ~
