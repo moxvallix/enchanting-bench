@@ -1,0 +1,16 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          "\uee00": -1
+        }
+      },
+      {
+        "type": "space",
+        "advances": {
+          "\uee01": -162
+        }
+      }
+    ]
+  }

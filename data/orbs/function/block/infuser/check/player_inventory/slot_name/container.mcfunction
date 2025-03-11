@@ -1,0 +1,2 @@
+data modify storage orbs:block/infuser/check slot.id set value "container"
+execute store result storage orbs:block/infuser/check slot.value int 1 run scoreboard players get $slot orbs.block.infuser.check

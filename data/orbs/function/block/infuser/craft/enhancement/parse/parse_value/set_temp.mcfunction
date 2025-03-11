@@ -1,0 +1,1 @@
+$data modify storage orbs:block/infuser/craft enhancement.temp.value set string storage orbs:block/infuser/craft enhancement.string $(start) $(end)

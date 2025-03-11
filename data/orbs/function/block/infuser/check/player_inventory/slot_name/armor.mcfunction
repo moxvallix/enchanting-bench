@@ -1,0 +1,4 @@
+execute if score $slot orbs.block.infuser.check matches 100 run return run data modify storage orbs:block/infuser/check slot set value {id: "armor", value: "feet"}
+execute if score $slot orbs.block.infuser.check matches 101 run return run data modify storage orbs:block/infuser/check slot set value {id: "armor", value: "legs"}
+execute if score $slot orbs.block.infuser.check matches 102 run return run data modify storage orbs:block/infuser/check slot set value {id: "armor", value: "chest"}
+execute if score $slot orbs.block.infuser.check matches 103 run data modify storage orbs:block/infuser/check slot set value {id: "armor", value: "head"}

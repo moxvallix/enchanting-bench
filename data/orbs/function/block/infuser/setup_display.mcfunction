@@ -1,0 +1,2 @@
+tag @s add orbs.block.infuser.display
+data merge entity @s {transformation: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.50005f,0.50005f,0.50005f],scale: [1.001f, 1.001f, 1.001f]}, brightness: {sky: 0, block: 15}, item: {id: "enchanting_table", components: {item_model: "orbs:infuser"}}}

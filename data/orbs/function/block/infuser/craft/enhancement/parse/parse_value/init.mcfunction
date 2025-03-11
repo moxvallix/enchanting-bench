@@ -1,0 +1,3 @@
+execute if data storage orbs:block/infuser/craft enhancement{current: ':', state: {open: false}} run return run function orbs:block/infuser/craft/enhancement/parse/parse_value/open
+execute if data storage orbs:block/infuser/craft enhancement{current: ',', state: {open: true}} run return run function orbs:block/infuser/craft/enhancement/parse/parse_value/close
+execute if data storage orbs:block/infuser/craft enhancement{current: '}', state: {open: true}} run return run function orbs:block/infuser/craft/enhancement/parse/parse_value/close

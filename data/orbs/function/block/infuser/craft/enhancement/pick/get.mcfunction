@@ -1,0 +1,1 @@
+$data modify storage orbs:block/infuser/craft enhancement.enchantment set from storage orbs:block/infuser/craft enhancement.enchantments[$(index)]

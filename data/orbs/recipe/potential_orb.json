@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bdb",
+    "dad",
+    "bdb"
+  ],
+  "key": {
+    "b": "minecraft:experience_bottle",
+    "d": "minecraft:diamond",
+    "a": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "minecraft:recovery_compass",
+    "components": {
+      "minecraft:custom_data": {
+        "orbs": {
+          "id": "orbs:potential_orb",
+          "infuser": {
+            "type": "input",
+            "callback": "orbs:block/infuser/craft/potential/init"
+          }
+        }
+      },
+      "minecraft:item_model": "orbs:potential_orb",
+      "minecraft:item_name": "{\"translate\": \"orbs.item.potential_orb\", \"fallback\": \"Orb of Potential\"}",
+      "minecraft:lore": [
+        "\"Resets the enchantment\"",
+        "\"cost of an item.\""
+      ]
+    }
+  }
+}

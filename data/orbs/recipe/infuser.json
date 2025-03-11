@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "lbl",
+    "ppp"
+  ],
+  "key": {
+    "a": "minecraft:amethyst_shard",
+    "l": "minecraft:lapis_lazuli",
+    "b": "minecraft:experience_bottle",
+    "p": "#minecraft:planks"
+  },
+  "result": {
+    "id": "minecraft:barrel",
+    "components": {
+      "minecraft:container": [
+        {
+          "slot": 0,
+          "item": {
+            "id": "minecraft:stone",
+            "components": {
+              "minecraft:custom_data": {
+                "smithed": {
+                  "block": {
+                    "id": "orbs:infuser"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "minecraft:item_model": "orbs:infuser",
+      "minecraft:item_name": "{\"translate\": \"orbs.block.infuser\", \"fallback\": \"Enchanting Bench\"}"
+    }
+  }
+}

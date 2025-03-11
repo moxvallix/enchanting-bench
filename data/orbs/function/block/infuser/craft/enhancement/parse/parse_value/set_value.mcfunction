@@ -1,0 +1,1 @@
+$data modify storage orbs:block/infuser/craft enhancement.result[-1].value set value $(value)

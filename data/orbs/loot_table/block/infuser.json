@@ -1,0 +1,55 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:stone",
+                      "count": 1,
+                      "components": {
+                        "minecraft:custom_data": {
+                          "smithed": {
+                            "block": {
+                              "id": "orbs:infuser"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "minecraft:item_model": "orbs:infuser"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "fallback": "Enchanting Bench",
+                  "translate": "orbs.block.infuser"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

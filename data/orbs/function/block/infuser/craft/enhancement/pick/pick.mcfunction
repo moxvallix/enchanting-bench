@@ -1,0 +1,1 @@
+$execute store result storage orbs:block/infuser/craft enhancement.pick.index int 1 run random value 0..$(max)

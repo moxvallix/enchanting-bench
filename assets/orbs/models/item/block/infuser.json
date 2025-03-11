@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "orbs:item/block/infuser_bottom",
+    "east": "orbs:item/block/infuser_side",
+    "north": "orbs:item/block/infuser_side",
+    "particle": "orbs:item/block/infuser_side",
+    "south": "orbs:item/block/infuser_side",
+    "up": "orbs:item/block/infuser_top",
+    "west": "orbs:item/block/infuser_side"
+	}
+}

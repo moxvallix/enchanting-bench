@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) as @n[type=marker,scores={orbs.block.infuser.entity=1}] run function orbs:block/infuser/consume/check

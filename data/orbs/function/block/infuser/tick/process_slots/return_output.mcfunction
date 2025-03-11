@@ -1,0 +1,3 @@
+execute if data storage orbs:block/infuser/tick/process_slots items[{Slot: 15b}].components."minecraft:custom_data".orbs_result run return run data modify storage orbs:block/infuser/tick/process_slots inventory.result set from storage orbs:block/infuser/tick/process_slots items[{Slot: 15b}]
+
+data modify storage orbs:block/infuser/tick/process_slots return append from storage orbs:block/infuser/tick/process_slots items[{Slot: 15b}]

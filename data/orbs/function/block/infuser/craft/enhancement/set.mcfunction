@@ -1,0 +1,1 @@
+$data modify storage orbs:block/infuser/craft result.components."minecraft:enchantments".levels."$(id)" set value $(value)

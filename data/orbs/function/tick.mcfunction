@@ -1,0 +1,2 @@
+execute as @e[type=marker,scores={orbs.block.infuser.entity=1}] at @s run function orbs:block/infuser/_tick_marker
+execute as @e[type=item,nbt={Item: {components: {"minecraft:custom_data": {orbs_result: {}}}}}] run function orbs:block/infuser/check/item_entity

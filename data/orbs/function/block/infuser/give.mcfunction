@@ -1,0 +1,1 @@
+loot give @s loot orbs:block/infuser

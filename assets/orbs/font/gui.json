@@ -1,0 +1,13 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "orbs:gui/infuser_bg.png",
+        "height": 54,
+        "ascent": -4,
+        "chars": [
+          ""
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,46 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "orbs:potential_orb",
+                "minecraft:custom_data": {
+                  "orbs": {
+                    "id": "orbs:potential_orb",
+                    "infuser": {
+                      "type": "input",
+                      "callback": "orbs:block/infuser/craft/potential/init"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "fallback": "Orb of Potential",
+                  "translate": "orbs.item.potential_orb"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+$data modify storage orbs:block/infuser/craft result.components."minecraft:lore" prepend value '{"color":"green","italic":false,"text":"Upgrade will cost $(levels) levels."}'

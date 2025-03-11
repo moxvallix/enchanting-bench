@@ -1,0 +1,1 @@
+$data modify storage orbs:block/infuser/craft enhancement.string set value '$(levels)'
