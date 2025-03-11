@@ -14,25 +14,25 @@ Enchanting Bench aims to help with some of the pains of the vanilla enchanting s
 #### Enchanting Bench
 The Enchanting Bench is a custom block that is used to apply orbs to equipment. It features a similar UI to an Anvil.
 
-![Enchanting Bench UI](assets/ui_enchanting_bench.png)
+![Enchanting Bench UI](https://raw.githubusercontent.com/moxvallix/enchanting-bench/refs/heads/main/assets/ui_enchanting_bench.png)
 
 The crafting recipe for an Enchanting Bench is fairly affordable, requiring amethyst, lapis, planks, and a bottle of enchanting.
 
-![Enchanting Bench Recipe](assets/recipe_enchanting_bench.png)
+![Enchanting Bench Recipe](https://raw.githubusercontent.com/moxvallix/enchanting-bench/refs/heads/main/assets/recipe_enchanting_bench.png)
 
 #### Orb of Enhancement
 The Orb of Enhancement will upgrade the level of a random enchantment on a piece of equipment. Doing so will cost experience levels the same as in an anvil. Upgrading an enchantment will also increase the anvil cost, meaning each subsequent upgrade will cost more experience.
 
 The crafting recipe for orbs is fairly pricey, but fair given what they can do. It requires diamonds, bottles of enchanting, and lapis.
 
-![Orb of Enhancement Recipe](assets/recipe_enhancement_orb.png)
+![Orb of Enhancement Recipe](https://raw.githubusercontent.com/moxvallix/enchanting-bench/refs/heads/main/assets/recipe_enhancement_orb.png)
 
 #### Orb of Potential
 The Orb of Potential will reset the anvil cost of any item. Doing so will cost experience levels equivalent to the anvil cost.
 
 The crafting recipe requires diamonds, bottles of enchanting, and amethyst.
 
-![Orb of Potential Recipe](assets/recipe_potential_orb.png)
+![Orb of Potential Recipe](https://raw.githubusercontent.com/moxvallix/enchanting-bench/refs/heads/main/assets/recipe_potential_orb.png)
 
 ## License
-Enchanting Bench is free/open source software, licensed as GPL3.0 or later. This means you can do whatever you like with the pack, as long as your changes are also released as GPL. See [LICENSE.md](LICENSE.md) for full license text.
+Enchanting Bench is free/open source software, licensed as GPL3.0 or later. This means you can do whatever you like with the pack, as long as your changes are also released as GPL. See [LICENSE.md](https://github.com/moxvallix/enchanting-bench/blob/main/LICENSE.md) for full license text.
